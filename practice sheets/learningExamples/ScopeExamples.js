@@ -8,17 +8,15 @@ const func = function() {
   printNum();
 };
 
-func();
+func(); //logs 3
 
-let num = 10;
-
-const printNum = function() {
+const printNum2 = function() {
   console.log(num);
 };
 
-const func = function() {
+const func2 = function() {
   let num = 3;
-  printNum();
+  printNum2();
 };
 
-func();
+func2(); // logs 10
