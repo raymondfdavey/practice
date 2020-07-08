@@ -14,6 +14,7 @@
     "mocha": "^6.2.2"
   },
   "dependencies": {
+  "minimist": ">=0.2.1",
     "sinon": "^8.0.4"
   }
 }
